@@ -38,7 +38,8 @@ h1 {
 /* Insert CSS for arms below this line*/
 
 /* Insert CSS for moustache below this line*/
-
+#moustache_image { top: 130px; left:88px;
+transform:rotate(180deg);}
 /* Insert CSS for shoes below this line*/
 
 /* Insert CSS for cane below this line*/
@@ -50,3 +51,56 @@ h1 {
 /* Insert CSS for hatflower below this line*/
 
 /* Insert CSS for boosters below this line*/
+#toggle{
+	position:absolute;
+	top:400px; left:125px;
+	background-color:blue;
+	color:white;
+	border:none;
+	width:30%;
+	height:10%;
+}
+
+#btrigger{
+  position:absolute;
+  top:400px; left:225px;
+  background-color:green;
+  color:white;
+  border:none;
+  width:30%;
+  height:10%;  
+}
+
+.ColorC{
+ animation:BC 8s infinite;
+ animation-direction:alternate;
+ transform:scale(1.2);
+}
+
+
+
+  @keyframes BC {
+    from{background-color:red;}
+    20%{background-color:yellow;}
+    40%{background-color:cyan;}
+    60%{background-color:purple;}
+    80%{background-color:brown;}
+    to{background-color:green;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
